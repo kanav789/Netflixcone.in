@@ -1,0 +1,199 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* background images setup */
+body {
+  background-color: rgb(0 0 0 / 40%);
+}
+
+.container {
+  background: url(photo.jpg);
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+}
+.container #head {
+  font-size: 2.3rem;
+  font-weight: 1000;
+}
+
+.container nav {
+  background-color: transparent;
+  height: 8vh;
+
+  color: rgba(229, 9, 20, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 12px 0px 0px 0px;
+  font-weight: 10em;
+}
+.box h1 {
+  font-size: 3rem;
+}
+.box p {
+  font-size: 1.5rem;
+  padding: 20px 0px 20px 0px;
+}
+.box h3 {
+  font-weight: normal;
+  font-size: 1.3rem;
+  padding: 0px 0px 10px 0px;
+}
+
+#sign button {
+  height: 5vh;
+  width: 10vh;
+  border-radius: 9px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.box {
+  margin: 29vh 0vh 0vh 0vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box form button {
+  height: 8vh;
+  width: 28vh;
+  color: white;
+  background-color: red;
+  font-style: italic;
+  font-weight: bolder;
+  border-radius: 4px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-bottom: 28vh;
+}
+
+/* box2  */
+
+.container2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.box2 {
+  display: flex;
+  position: relative;
+  /* top: 27vh; */
+  /* margin: 10vh; */
+}
+.box2 h1,
+p {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
+.box2 h1 {
+  font-size: 3rem;
+  margin: 35vh 0vh 0vh 0vh;
+}
+.box2 p {
+  margin: 1vh 0vh 20vh 12vh;
+  font-size: 1.5rem;
+}
+.box2 .img img {
+  height: 23rem;
+  margin: 20vh 19vh 20vh 0vh;
+}
+
+/* box 3 */
+
+.container3 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.box3 {
+  display: flex;
+  position: relative;
+}
+
+.box3text h1,
+p {
+  display: flex;
+  justify-content: center;
+}
+.box3text h1 {
+  margin: 29vh 0vh 0vh 10vh;
+  font-size: 4rem;
+}
+.box3text p {
+  margin: 2vh 0vh 1vh 10vh;
+  font-size: 1.5rem;
+}
+
+.mobile img {
+  margin: 10vh 0vh 20vh 10vh;
+}
+
+/* container4 */
+
+.container4 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.box4 {
+  display: flex;
+  position: relative;
+}
+
+.box4text h1,
+p {
+  display: flex;
+  justify-content: center;
+}
+.box4text h1 {
+  margin: 29vh 0vh 0vh 0vh;
+  font-size: 4rem;
+}
+.box4text p {
+  margin: 4vh 0vh 1vh 26vh;
+  font-size: 1.5rem;
+}
+
+.device img {
+  margin: 10vh 10vh 20vh 0vh;
+}
+
+/* container5 */
+
+.container5 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.box5 {
+  display: flex;
+  position: relative;
+}
+
+.box5text h1,
+p {
+  display: flex;
+  justify-content: center;
+}
+.box5text h1 {
+  margin: 29vh 0vh 0vh 10vh;
+  font-size: 4rem;
+}
+.box5text p {
+  margin: 2vh 0vh 1vh 10vh;
+  font-size: 1.5rem;
+}
+
+.img5 img {
+  margin: 10vh 0vh 20vh 10vh;
+}
